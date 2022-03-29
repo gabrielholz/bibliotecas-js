@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.7);
+    height: 100px;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+.logo {
+    display: flex;
+    margin-left: 100px;
+}
+
+.logo h1 {
+    margin-top: 30px;
+    color: rgb(18,146,205);
+}
+
+.listaopcoes {
+    justify-content: center;
+    align-items: center;
+    display: inline;
+    margin-top: 38px;
+    margin-right: 100px;
+}
+
+.listaopcoes ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.listaopcoes a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(18,146,205);
+    padding: 10px;
+    border-radius: 20px;
+}
