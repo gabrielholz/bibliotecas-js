@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 
 .card p{
     font-size: 1.1rem;
@@ -48,10 +53,11 @@
 }
 
 .card img{
-    height: 35em;
+    height: 45em;
     text-align: center;
     justify-content: center;
     align-content: center;
+    background-size: cover;
     -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
@@ -62,8 +68,139 @@
     gap: 30px;
 }
 
+.logo h1{
+    color: rgb(18,146,205);
+}
+
+#header {
+    display: flex;
+    height: 15vh;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 1rem;  
+    background-color: white;
+    justify-content: space-around;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.7);
+  }
+  
+  #nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0.8rem;
+    gap: 30px;
+  }
+  #nav-list {
+    display: flex;
+    list-style: none; 
+  }
+  
+  #nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+    padding: 10px;
+  }
+  
+  #nav-list li > a {
+    display: block;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(18,146,205);
+    padding: 10px;
+    border-radius: 20px;
+  }
+  
+  #btn-mobile {
+    display: none;
+  }
+  
+  #header > img {
+    width: 10vh;
+    height: 10vh;
+  }
+  
+
 
 @media (max-width: 800px) {
+
+.logo{
+    width: 10vw;
+    height: 10vh;
+    margin-right: 2rem;
+  }
+
+  .logo h1{
+      display: none;
+  }
+
+  #btn-mobile {
+    display: block;
+  }
+
+  #nav-list {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 0vh;
+    top: 15vh;
+    right: 0;
+    background-color: rgb(18,146,205);
+    display: block;
+    z-index: 1000;
+    transition: 0.6s;
+    visibility: hidden;
+    overflow-y: hidden;
+  }
+
+  #nav.active #nav-list {
+    height: calc(100vh - 15vh);
+    visibility: visible;
+    overflow-y: auto;
+  }
+
+  #nav-list a {
+    padding: 1rem 0;
+    margin: 0 1rem;
+    border-bottom: 1px solid rgb(255, 255, 255) 0.05;
+  }
+  #btn-mobile {
+    display: flex;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    gap: 0.5rem;
+    color: #266397;
+  }
+  #hamburger {
+    border-top: 2px solid;
+    width: 30px;
+    font-size: 30px;
+  }
+  #hamburger::after,
+  #hamburger::before {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 2px;
+    background: currentColor;
+    margin-top: 10px;
+    transition: 0.3s;
+    position: relative;
+  }
+  #nav.active #hamburger {
+    border-top-color: transparent;
+  }
+  #nav.active #hamburger::before {
+    transform: rotate(130deg);
+  }
+  #nav.active #hamburger::after {
+    transform: rotate(-130deg);
+    top: -11px;
+  }
 
 }
 
