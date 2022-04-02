@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -8,10 +7,18 @@
 }
 
 
-
+html, body {
+  width: 100%;
+  height: 100%;
+}
 
 main {
+  background-image: url('../img/background-sobre4.png');
+
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
+  position: relative;
   height: 100%;
   flex-grow: 1;
   display: flex;
@@ -19,7 +26,34 @@ main {
   flex-direction: column;
 }
 
+.background__personalizado {
+  background-color: rgba(0, 0, 0, .5);
+  /* background: radial-gradient(circle, rgba(0, 0, 0, 0.2) 20%, rgba(0, 0, 0, 0.9) 90%);  */
+  background: radial-gradient(circle, rgba(0, 0, 0, 0.6) 10%, rgba(0, 0, 0, 0.9) 100%);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
+.sobre__descricao{
+  width: 60%;
+}
+
+
+.sobre__descricao h2{
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2%;
+} 
+
+.sobre__descricao p{
+  color: rgba(255,255,255, .8);
+  font-size: 1.2rem;
+  text-align: center;
+}
 
 #grupo {
   justify-content: center;
@@ -27,6 +61,13 @@ main {
   margin-top: 5%;
   width: 80%;
 
+}
+
+#grupo h2{
+  color: #fff;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 2%;
 }
 
 .cards {
@@ -49,20 +90,25 @@ main {
   padding: 5px;
   border-radius: 10px;
   border: .5px solid rgba(0, 0, 0, .5);
+  /* rgb(0 175 255 / 70%); */
+  /* background-color: rgba(18, 146, 205, .7); */
+  background-color: rgba(0, 175, 255, 1); 
   box-shadow: 0px 0px 23px 2px rgba(0, 0, 0, .3);
   transition: all .5s;
 }
 
+.card h3{
+  color: #fff;
+  font-family: "Helvetica Neue",Helvetica,Arial;
+}
 .img__aluno {
   width: 150px;
   height: 150px;
   border-radius: 50%;
+  margin-bottom: 5%;
 
 }
 
-.card__icones {
-
-}
 
 .card__icones {
   display: flex;
@@ -70,10 +116,75 @@ main {
   align-items: center;
   justify-content: center;
   text-align: center;
-}
+  width: 100%;
+  gap: 2%;
+  margin-top: 5%;
 
+}
+.card__icones a{
+  /* background-color: rgba(255, 255, 255, .5); */
+  border-radius: 20%;
+} 
 .icone__social {
   width: 40px;
   height: 40px;
   margin: 10px;
+}
+
+footer {
+  width: 100%;
+  bottom: 0;
+  height: 150px;
+  background-color: #fff
+}
+
+
+
+@media (max-width: 460px) {
+  /*mobile*/
+
+  .container {
+    width: 100%;
+  }
+
+  header{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    justify-content: space-around;
+    position: relative;
+    align-items: center;
+  }
+
+  .logo{
+    height: 50%
+  }
+
+  .card{
+    width: 80%;
+  }
+
+}
+
+@media (min-width: 461px) and (max-width:768px) {
+
+  /*tablet*/
+
+  header{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .logo{
+    height: 50%
+  }
+
+  .card{
+    width: 45%;
+  }
+
 }
