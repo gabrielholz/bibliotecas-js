@@ -135,6 +135,7 @@
     width: 10vw;
     height: 10vh;
     margin-right: 2rem;
+    justify-content: space-around;
   }
 
   .logo h1{
@@ -169,8 +170,9 @@
   #nav-list a {
     padding: 1rem 0;
     margin: 0 1rem;
-    border-bottom: 1px solid rgb(255, 255, 255) 0.05;
+    border-bottom: 1px solid rgb(255, 255, 255) 0.05;    
   }
+
   #btn-mobile {
     display: flex;
     padding: 0.5rem 1rem;
