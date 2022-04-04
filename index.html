@@ -5,24 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BF_JS - Home</title>
-    <link rel="stylesheet" href="css/style-index.css">
+    <link rel="stylesheet" href="./css/style-index.css">
+    <link rel="stylesheet" href="./css/style-detalhes.css">
 </head>
 <body>
-    <header>
+    <header id="header">
         <div class="logo">
-            <img src="./img/logo.png" alt="Bibliotecas&Frameworks.JS">
-            <h1>Bibliotecas&Frameworks.JS</h1>
+          <img src="./img/logo.png" alt="Bibliotecas&Frameworks.JS">
+          <h1>Bibliotecas&Frameworks.JS</h1>
         </div>
-
-        <nav class="listaopcoes">
-            <ul>
-                <li><a href="#logo">Home</a></li>
-                <li><a href="./detalhes.html">Itens</a></li>
-                <li><a href="./sobre-nos.html">Sobre nós</a></li>
-                <li><a href="">Login</a></li>
-            </ul>
+        <nav id="nav">
+          <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+            Menu
+            <span id="hamburger"></span>
+          </button>
+          <ul id="nav-list">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="">Itens</a></li>
+            <li><a href="./sobre-nos.html">Sobre nós</a></li>
+            <li><a href="">Login</a></li>
+          </ul>
         </nav>
     </header>
+    <script src="./js/mobile.js"></script>
 
     <main class="container">
 
@@ -30,27 +35,41 @@
 
     <footer>
         <section class="membros">
-            <div class="aluno joao">
-                <h2>João Geovani de Camargo</h2>
-                <span>Responsável pelo desenvolvimento da página inicial e do login.</span>
-                <div><a href="https://www.linkedin.com/in/joão-geovani-de-camargo-9a464418a/"><img src="./img/linkedinlogo.png" alt="Confira o meu LinkedIn!"></a></div>
-                <div><a href="https://github.com/joaogeovani"><img src="./img/githublogo.png" alt="Confira o meu GitHub!"></a></div>
+          <div class="aluno joao">
+            <h2>João Geovani de Camargo</h2>
+            <span>Responsável pelo desenvolvimento da página inicial e do login.</span>
+            <div class="icones">
+              <a href="https://www.linkedin.com/in/joão-geovani-de-camargo-9a464418a/"><img src="./img/linkedinlogo.png"
+                  alt="Confira o meu LinkedIn!"></a>
+              <a href="https://github.com/joaogeovani"><img src="./img/githublogo.png" alt="Confira o meu GitHub!"></a>
             </div>
-            <div class="aluno Gabriel">
-                <h2>Gabriel Holz</h2>
-                <span>Edita aqui depois Gabriel, basendo no que eu coloquei ali editem também o link do linkedin e do git de vocês</span>
-                <div><a href="https://www.linkedin.com/in/joão-geovani-de-camargo-9a464418a/"><img src="./img/linkedinlogo.png" alt="Confira o meu LinkedIn!"></a></div>
-                <div><a href="https://github.com/joaogeovani"><img src="./img/githublogo.png" alt="Confira o meu GitHub!"></a></div>
+          </div>
+          <div class="aluno Gabriel">
+            <h2>Gabriel Holz</h2>
+            <span>Edita aqui depois Gabriel, basendo no que eu coloquei ali editem também o link do linkedin e do
+              git de vocês</span>
+            <div>
+              <div class="icones">
+                <a href="https://www.linkedin.com/in/joão-geovani-de-camargo-9a464418a/"><img
+                    src="./img/linkedinlogo.png" alt="Confira o meu LinkedIn!"></a>
+    
+                <a href="https://github.com/joaogeovani"><img src="./img/githublogo.png"
+                    alt="Confira o meu GitHub!"></a>
+              </div>
             </div>
-            <div class="aluno Paulo">
-                <h2>Paulo Borges</h2>
-                <span>Edita aqui depois Paulo, baseando no que eu coloquei ali editem também o link do linkedin e do git de vocês</span>
-                <div><a href="https://www.linkedin.com/in/joão-geovani-de-camargo-9a464418a/"><img src="./img/linkedinlogo.png" alt="Confira o meu LinkedIn!"></a></div>
-                <div><a href="https://github.com/joaogeovani"><img src="./img/githublogo.png" alt="Confira o meu GitHub!"></a></div>
+          </div>
+          <div class="aluno Paulo">
+            <h2>Paulo Borges</h2>
+            <span>Responsável pelo desenvimento da página Detalhes</span>
+            <div class="icones">
+              <a href="https://www.linkedin.com/in/paulo-henrique-santos-borges-027413205/"><img src="./img/linkedinlogo.png"
+                  alt="Confira o meu LinkedIn!"></a>
+              <a href="https://github.com/paulinhodeveloper"><img src="./img/githublogo.png" alt="Confira o meu GitHub!"></a>
             </div>
+          </div>
         </section>
-
-        <span>Checkpoint 2 desenvolvido em 2022</span>
+    
+        <span class="diretos">Checkpoint 2 desenvolvido em 2022</span>
     </footer>
 </body>
 </html>

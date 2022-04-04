@@ -4,7 +4,7 @@
   margin: 0;
 }
 
-.card p{
+.cardPaulo p{
     font-size: 1.1rem;
     color:black;
 }
@@ -18,7 +18,7 @@
     justify-content: center;
 }
 
-.card{
+.cardPaulo {
     text-align: center;
     align-content: center;
     align-items: center;
@@ -52,7 +52,7 @@
     text-align: center;
 }
 
-.card img{
+.cardPaulo img{
     height: 45em;
     text-align: center;
     justify-content: center;
@@ -210,7 +210,7 @@
     top: -11px;
   }
 
-  .card img{
+  .cardPaulo img{
     height: 35vh;
   }
 
