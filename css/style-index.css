@@ -47,6 +47,46 @@ header {
     border-radius: 20px;
 }
 
+.bannerIndex {
+    background-image: url('../img/bannerIndex.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.bannerIndex div {
+    background-color: rgba(0, 0, 0, .5);
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.6) 10%, rgba(0, 0, 0, 0.9) 100%);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.bannerIndex h2 {
+    color: rgb(18,146,205);
+    font-size: 40px;
+}
+
+.bannerIndex span {
+    color: rgb(18,146,205);
+    font-size: 20px;
+}
+
+.bannerIndex a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(18,146,205);
+    padding: 10px;
+    border-radius: 20px;
+}
+
 footer {
     display: flex;
     flex-direction: column;
