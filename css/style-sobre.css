@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-size: 16px;
+  font-family: 'Roboto', sans-serif;
 
 }
 
@@ -98,8 +99,7 @@ main {
 }
 
 .card h3{
-  color: #fff;
-  font-family: "Helvetica Neue",Helvetica,Arial;
+  color: #fff;  
 }
 .img__aluno {
   width: 150px;
