@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    text-decoration: none;
 }
 
 header {
@@ -88,66 +89,78 @@ header {
     border-radius: 20px;
 }
 
-.bfConteiner {
+.itens {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: white;
+    background-color: rgb(18,146,205);
+    font-size: 40px;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.7);
 }
 
-.bfCard {
-    width: 500px;
+.bfConteiner {
+    display: block;
+    width: 100%;
+    flex-direction: column;
+}
+
+.bfConteiner__cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 5% 10% 0 10%;
+}
+
+.cardConteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20%;
+    height: auto;
     background: #f3f3f3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin-bottom: 100px;
     border-radius: 3%;
 }
 
-.JavaScript {
-    background-image: url('../img/javascriptTema.png');
-    background-repeat: no-repeat;
-    background-size: contain;
+.cardConteudo img {
+    width: 100%;
+    height: auto;
+    border-radius: 3%;
 }
 
-.React {
-    background-image: url('../img/reactbg.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.Bootstrap {
-    background-image: url('../img/bootstrapbg.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.Jquery {
-    background-image: url('../img/jquerybg.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.Glimmer {
-    background-image: url('../img/glimmerbg.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.Babel {
-    background-image: url('../img/babelbg.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.AngularJs {
-    background-image: url('../img/angularbg.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.cardConteudo {
+.cardHeader span {
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    font-weight: bold;
+}
+
+.cardDescription span {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.cardDescription {
+    padding: 2%;
+}
+
+.cardButton {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+
+.cardButton a {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(18,146,205);
+    color: white;
 }
 
 footer {
@@ -160,5 +173,9 @@ footer {
 
 .membros {
     display: flex;
+    
+}
+
+@media (max-width: 460px) /*mobile*/ {
     
 }
