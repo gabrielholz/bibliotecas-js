@@ -195,6 +195,18 @@ main {
     height: 50%
   }
 
+  #grupo {
+    margin-top: 80px;
+  }
+  .cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20%;
+  }
+
+
   .card {
     width: 80%;
   }
@@ -250,6 +262,13 @@ main {
     height: 50%
   }
 
+  .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+  }
   .card {
     width: 45%;
   }
@@ -257,6 +276,36 @@ main {
   .card__icones a:hover {
     transform: scale(0.9);
 
+  }
+
+  @keyframes animation-card {
+    0% {
+      margin-top: calc(0%);
+      margin-bottom: calc(0%);
+    }
+  
+    25% {
+      margin-top: calc(2.5%);
+      margin-bottom: calc(2.5%);
+    }
+  
+    50% {
+
+      margin-top: calc(5%);
+      margin-bottom: calc(5%);
+    }
+  
+    75% {
+
+      margin-top: calc(2.5%);
+      margin-bottom: calc(2.5%);
+    }
+  
+    100% {
+
+      margin-top: calc(0%);
+      margin-bottom: calc(0%);
+    }
   }
 
 }
