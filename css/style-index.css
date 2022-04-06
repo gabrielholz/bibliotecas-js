@@ -72,11 +72,13 @@ header {
 }
 
 .bannerIndex h2 {
+    text-align: center;
     color: rgb(18,146,205);
     font-size: 40px;
 }
 
 .bannerIndex span {
+    text-align: center;
     color: rgb(18,146,205);
     font-size: 20px;
 }
@@ -87,6 +89,7 @@ header {
     background-color: rgb(18,146,205);
     padding: 10px;
     border-radius: 20px;
+    margin-top: 2%;
 }
 
 .itens {
@@ -177,5 +180,15 @@ footer {
 }
 
 @media (max-width: 460px) /*mobile*/ {
-    
+
+    .bfConteiner__cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cardConteudo {
+        width: 80%;
+    }
 }
