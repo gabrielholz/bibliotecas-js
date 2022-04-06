@@ -25,10 +25,6 @@ header {
     width: auto;
 }
 
-.logo h1 {
-    color: rgb(18,146,205);
-}
-
 .listaopcoes {
     justify-content: center;
     align-items: center;

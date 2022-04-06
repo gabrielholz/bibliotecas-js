@@ -2,84 +2,92 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BF_JS - Home</title>
-  <link rel="stylesheet" href="./css/style-index.css">
-  <link rel="stylesheet" href="./css/style-detalhes.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BF_JS - Home</title>
+    <link rel="stylesheet" href="./css/style-index.css">
+    <link rel="stylesheet" href="./css/style-detalhes.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style-login.css">
 </head>
 
 <body>
-  <header id="header">
-    <div class="logo">
-      <img src="./img/logo.png" alt="Bibliotecas&Frameworks.JS">
-      <h1>Bibliotecas&Frameworks.JS</h1>
-    </div>
-    <nav id="nav">
-      <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
-        Menu
-        <span id="hamburger"></span>
-      </button>
-      <ul id="nav-list">
-        <li><a href="./index.html">Home</a></li>
-        <li><a href="#itensHeader">Itens</a></li>
-        <li><a href="./sobre-nos.html">Sobre nós</a></li>
-        <li><a href="./login.html">Login</a></li>
-      </ul>
-    </nav>
-  </header>
-  <script src="./js/mobile.js"></script>
-
-  <main>
-    <section class="bannerIndex">
-      <div class="login">
-        
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <section class="membros">
-      <div class="aluno__Joao">
-        <h2>João Geovani de Camargo</h2>
-        <span>Responsável pelo desenvolvimento da página inicial e do login.</span>
-        <div class="icones">
-          <a href="https://www.linkedin.com/in/joão-geovani-de-camargo-9a464418a/"><img src="./img/linkedinlogo.png"
-              alt="Confira o meu LinkedIn!"></a>
-          <a href="https://github.com/joaogeovani"><img src="./img/githublogo.png" alt="Confira o meu GitHub!"></a>
+    <header id="header">
+        <div class="logo">
+            <img src="./img/logo.png" alt="Bibliotecas&Frameworks.JS">
         </div>
-      </div>
-      <div class="aluno__Gabriel">
-        <h2>Gabriel Holz</h2>
-        <span>Edita aqui depois Gabriel, basendo no que eu coloquei ali editem também o link do linkedin e do
-          git de vocês</span>
-        <div>
-          <div class="icones">
-            <a href="https://www.linkedin.com/in/gabrielholz"><img src="./img/linkedinlogo.png"
-                alt="Confira o meu LinkedIn!"></a>
+        <nav id="nav">
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
+                aria-expanded="false">
+                Menu
+                <span id="hamburger"></span>
+            </button>
+            <ul id="nav-list">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#itensHeader">Itens</a></li>
+                <li><a href="./sobre-nos.html">Sobre nós</a></li>
+                <li><a href="./login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <script src="./js/mobile.js"></script>
 
-            <a href="https://github.com/gabrielholz"><img src="./img/githublogo.png" alt="Confira o meu GitHub!"></a>
-          </div>
-        </div>
-      </div>
-      <div class="aluno__Paulo">
-        <h2>Paulo Borges</h2>
-        <span>Responsável pelo desenvimento da página Detalhes</span>
-        <div class="icones">
-          <a href="https://www.linkedin.com/in/paulo-henrique-santos-borges-027413205/"><img
-              src="./img/linkedinlogo.png" alt="Confira o meu LinkedIn!"></a>
-          <a href="https://github.com/paulinhodeveloper"><img src="./img/githublogo.png"
-              alt="Confira o meu GitHub!"></a>
-        </div>
-      </div>
-    </section>
+    <main>
+        <section class="bannerIndex">
+            <div class="login">
+                <form action="index.html">
+                    <h1>Login</h1>
+                    <input type="text" name="user" id="user" placeholder="Usuário" />
+                    <input type="password" name="password" id="password" placeholder="Senha" />
+                    <button type="submit">Entrar</button>
+                </form>
+            </div>
+        </section>
+    </main>
 
-    <span class="diretos">Checkpoint 2 desenvolvido em 2022</span>
-  </footer>
+    <footer>
+        <section class="membros">
+            <div class="aluno__Joao">
+                <h2>João Geovani de Camargo</h2>
+                <span>Responsável pelo desenvolvimento da página inicial e do login.</span>
+                <div class="icones">
+                    <a href="https://www.linkedin.com/in/joão-geovani-de-camargo-9a464418a/"><img
+                            src="./img/linkedinlogo.png" alt="Confira o meu LinkedIn!"></a>
+                    <a href="https://github.com/joaogeovani"><img src="./img/githublogo.png"
+                            alt="Confira o meu GitHub!"></a>
+                </div>
+            </div>
+            <div class="aluno__Gabriel">
+                <h2>Gabriel Holz</h2>
+                <span>Edita aqui depois Gabriel, basendo no que eu coloquei ali editem também o link do linkedin e do
+                    git de vocês</span>
+                <div>
+                    <div class="icones">
+                        <a href="https://www.linkedin.com/in/gabrielholz"><img src="./img/linkedinlogo.png"
+                                alt="Confira o meu LinkedIn!"></a>
+
+                        <a href="https://github.com/gabrielholz"><img src="./img/githublogo.png"
+                                alt="Confira o meu GitHub!"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="aluno__Paulo">
+                <h2>Paulo Borges</h2>
+                <span>Responsável pelo desenvimento da página Detalhes</span>
+                <div class="icones">
+                    <a href="https://www.linkedin.com/in/paulo-henrique-santos-borges-027413205/"><img
+                            src="./img/linkedinlogo.png" alt="Confira o meu LinkedIn!"></a>
+                    <a href="https://github.com/paulinhodeveloper"><img src="./img/githublogo.png"
+                            alt="Confira o meu GitHub!"></a>
+                </div>
+            </div>
+        </section>
+
+        <span class="diretos">Checkpoint 2 desenvolvido em 2022</span>
+    </footer>
 </body>
 
 </html>
