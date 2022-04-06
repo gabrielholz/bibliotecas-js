@@ -128,12 +128,17 @@ header {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin-bottom: 100px;
     border-radius: 3%;
+    transition: all .5s;
 }
 
 .cardConteudo img {
     width: 100%;
     height: auto;
     border-radius: 3%;
+}
+
+.cardConteudo:hover {
+    transform: scale(1.2);
 }
 
 .cardHeader span {
@@ -166,6 +171,10 @@ header {
     color: white;
 }
 
+.cardButton a:hover {
+    border: 1px solid black;
+}
+
 footer {
     display: flex;
     flex-direction: column;
@@ -188,7 +197,20 @@ footer {
         align-items: center;
     }
 
-    .cardConteudo {
-        width: 80%;
+    .bfConteiner__cards div {
+        width: 100%;
+    }
+}
+
+@media (min-width: 461px) and (max-width:768px) {
+    .bfConteiner__cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .bfConteiner__cards div {
+        width: 100%;
     }
 }
