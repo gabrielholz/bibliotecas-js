@@ -88,6 +88,68 @@ header {
     border-radius: 20px;
 }
 
+.bfConteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bfCard {
+    width: 500px;
+    background: #f3f3f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 100px;
+    border-radius: 3%;
+}
+
+.JavaScript {
+    background-image: url('../img/javascriptTema.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.React {
+    background-image: url('../img/reactbg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.Bootstrap {
+    background-image: url('../img/bootstrapbg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.Jquery {
+    background-image: url('../img/jquerybg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.Glimmer {
+    background-image: url('../img/glimmerbg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.Babel {
+    background-image: url('../img/babelbg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.AngularJs {
+    background-image: url('../img/angularbg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.cardConteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 footer {
     display: flex;
     flex-direction: column;
