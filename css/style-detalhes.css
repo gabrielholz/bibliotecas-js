@@ -62,6 +62,7 @@
     -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
 }
+
 .membros{
     color: white;
     margin: 20px;
@@ -76,6 +77,13 @@
 
 .logo h1{
     color: rgb(18,146,205);
+}
+.logo h1:hover{
+  transform: scale(0.9);
+}
+
+.logo img:hover{
+  transform: scale(0.9);
 }
 
 #header {
@@ -117,6 +125,10 @@
     padding: 10px;
     border-radius: 20px;
   }
+
+  #nav-list li > a:hover {
+    transform: scale(0.9);
+  }
   
   #btn-mobile {
     display: none;
@@ -126,6 +138,34 @@
     width: 10vh;
     height: 10vh;
   }
+
+  .aluno__Paulo{
+    width: 30%;
+    text-align: end;
+  }
+
+  
+  .aluno__Gabriel{
+    width: 30%;
+    text-align: center;
+  }
+  
+  .aluno__Joao{
+    width: 30%;
+    text-align: start;
+  }
+
+  .icones{
+    padding:15px;
+  }
+  .icones img{
+    margin: 2px;
+  }
+
+  .icones img:hover{
+    transform: scale(0.9);
+  }
+  
   
 
 
@@ -212,6 +252,47 @@
 
   .cardPaulo img{
     height: 35vh;
+  } 
+
+  #footer .membros{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .aluno__Paulo{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .aluno__Gabriel{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .aluno__Joao{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .icones{
+    padding:15px;
+  }
+  .icones img{
+    margin: 2px;
+  }
+
+  .icones img:hover{
+    transform: scale(0.9);
   }
 
 }

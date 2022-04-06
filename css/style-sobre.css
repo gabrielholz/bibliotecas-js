@@ -121,6 +121,12 @@ main {
   margin-top: 5%;
 
 }
+
+.card__icones a:hover{
+  transform: scale(0.9);
+
+}
+
 .card__icones a{
   /* background-color: rgba(255, 255, 255, .5); */
   border-radius: 20%;
@@ -164,6 +170,11 @@ footer {
     width: 80%;
   }
 
+  .card__icones a:hover{
+    transform: scale(0.9);
+  
+  }
+
 }
 
 @media (min-width: 461px) and (max-width:768px) {
@@ -185,6 +196,11 @@ footer {
 
   .card{
     width: 45%;
+  }
+
+  .card__icones a:hover{
+    transform: scale(0.9);
+  
   }
 
 }
