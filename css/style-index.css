@@ -6,6 +6,10 @@
     text-decoration: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -86,6 +90,10 @@ header {
     padding: 10px;
     border-radius: 20px;
     margin-top: 2%;
+}
+
+.bannerIndex a:hover {
+    transform: scale(1.1);
 }
 
 .itens {
@@ -198,7 +206,7 @@ footer {
     }
 }
 
-@media (min-width: 461px) and (max-width:768px) {
+@media (min-width: 461px) and (max-width:768px) /*tablet*/ {
     .bfConteiner__cards {
         display: flex;
         flex-direction: column;
