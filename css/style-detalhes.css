@@ -5,173 +5,173 @@
   font-family: 'Roboto', sans-serif;
 }
 
-.cardPaulo p{
-    font-size: 1.1rem;
-    color:black;
+.cardPaulo p {
+  font-size: 1.1rem;
+  color: black;
 }
 
 
-.conteiner{
-    display: flex;
-    text-align: center;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
+.conteiner {
+  display: flex;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .cardPaulo {
-    text-align: center;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    margin: 20px;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
 
 }
 
-.card-body p{
-    text-align: left;
+.card-body p {
+  text-align: left;
 }
 
-.card-body h1{
-    font-size: 1.5rem;
-    font-weight: bold;
-    text-align: center;
-}
-.card-body h2{
-    font-size: 1.5rem;
-    font-weight: bold;
-    text-align: center;
-}
-.card-body h3{
-    font-size: 1.5rem;
-    font-weight: bold;
-    text-align: center;
-}
-.card-body h4{
-    font-size: 1.5rem;
-    font-weight: bold;
-    text-align: center;
+.card-body h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
 }
 
-.cardPaulo img{
-    height: 80%;
-    text-align: center;
-    justify-content: center;
-    align-content: center;
-    background-size: cover;
-    -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
-    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
-    
+.card-body h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
 }
 
-.membros{
-    color: white;
-    margin: 20px;
-    gap: 30px;
+.card-body h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
 }
 
-.diretos{
+.card-body h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.cardPaulo img {
+  height: 80%;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  background-size: cover;
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
+
+}
+
+.membros {
+  color: white;
+  margin: 20px;
+  gap: 30px;
+}
+
+.diretos {
   color: white;
   margin: 20px;
   gap: 30px;
 }
 
 
-
+/* observar */
 #header {
-    display: flex;
-    height: 15vh;
-    align-items: center;
-    box-sizing: border-box;
-    padding: 1rem;  
-    background-color: white;
-    justify-content: space-around;
-    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.7);
-  }
-  
-  #nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 0.8rem;
-    gap: 30px;
-  }
-  #nav-list {
-    display: flex;
-    list-style: none; 
-  }
-  
-  #nav-list li {
-    letter-spacing: 3px;
-    margin-left: 32px;
-    padding: 10px;
-  }
-  
-  #nav-list li > a {
-    display: block;
-    font-size: 28px;
-    font-weight: bold;
-    text-decoration: none;
-    color: white;
-    background-color: rgb(18,146,205);
-    padding: 10px;
-    border-radius: 20px;
-  }
+  display: flex;
+  align-items: center;
+  height: 15vh;
+  box-sizing: border-box;
+  background-color: white;
+  justify-content: space-around;
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.7);
+}
 
-  #nav-list li > a:hover {
-    transform: scale(0.9);
-  }
-  
-  #btn-mobile {
-    display: none;
-  }
-  
-  #header img {
-    width: 10vh;
-    height: 10vh;
-  }
+#nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 0.8rem;
+  gap: 30px;
+}
 
-  .aluno__Paulo{
-    width: 30%;
-    text-align: end;
-  }
+#nav-list {
+  display: flex;
+  list-style: none;
+}
 
-  
-  .aluno__Gabriel{
-    width: 30%;
-    text-align: center;
-  }
-  
-  .aluno__Joao{
-    width: 30%;
-    text-align: start;
-  }
+#nav-list li {
+  letter-spacing: 3px;
+  margin-left: 32px;
+  padding: 10px;
+}
 
-  .icones{
-    padding:15px;
-  }
-  .icones img{
-    margin: 2px;
-  }
+#nav-list li>a {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(18, 146, 205);
+  padding: 10px;
+  border-radius: 20px;
+}
 
-  .icones img:hover{
-    transform: scale(0.9);
-  }
-   
+#nav-list li>a:hover {
+  transform: scale(1.2);
+}
+
+#btn-mobile {
+  display: none;
+}
+
+
+.aluno__Paulo {
+  width: 30%;
+  text-align: end;
+}
+
+
+.aluno__Gabriel {
+  width: 30%;
+  text-align: center;
+}
+
+.aluno__Joao {
+  width: 30%;
+  text-align: start;
+}
+
+.icones {
+  padding: 15px;
+}
+
+.icones img {
+  margin: 2px;
+}
+
+.icones img:hover {
+  transform: scale(0.9);
+}
+
 
 
 @media (max-width: 800px) {
 
-.logo{
+  .logo {
     width: 10vw;
     height: 10vh;
     margin-right: 2rem;
     justify-content: space-around;
   }
 
-  .logo h1{
-      display: none;
+  .logo h1 {
+    display: none;
   }
 
   #btn-mobile {
@@ -185,7 +185,7 @@
     height: 0vh;
     top: 15vh;
     right: 0;
-    background-color: rgb(18,146,205);
+    background-color: rgb(18, 146, 205);
     display: block;
     z-index: 1000;
     transition: 0.6s;
@@ -202,7 +202,7 @@
   #nav-list a {
     padding: 1rem 0;
     margin: 0 1rem;
-    border-bottom: 1px solid rgb(255, 255, 255) 0.05;    
+    border-bottom: 1px solid rgb(255, 255, 255) 0.05;
   }
 
   #btn-mobile {
@@ -215,11 +215,13 @@
     gap: 0.5rem;
     color: #266397;
   }
+
   #hamburger {
     border-top: 2px solid;
     width: 30px;
     font-size: 30px;
   }
+
   #hamburger::after,
   #hamburger::before {
     content: "";
@@ -231,44 +233,31 @@
     transition: 0.3s;
     position: relative;
   }
+
   #nav.active #hamburger {
     border-top-color: transparent;
   }
+
   #nav.active #hamburger::before {
     transform: rotate(130deg);
   }
+
   #nav.active #hamburger::after {
     transform: rotate(-130deg);
     top: -11px;
   }
 
-  .cardPaulo img{
+  .cardPaulo img {
     height: 35vh;
-  } 
-
-  #footer .membros{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
   }
 
-  .aluno__Paulo{
+  #footer .membros {
     display: flex;
-    width: 95%;
-    text-align: center;
     flex-direction: column;
     flex-wrap: wrap;
   }
-  
-  .aluno__Gabriel{
-    display: flex;
-    width: 95%;
-    text-align: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-  
-  .aluno__Joao{
+
+  .aluno__Paulo {
     display: flex;
     width: 95%;
     text-align: center;
@@ -276,22 +265,36 @@
     flex-wrap: wrap;
   }
 
-  .icones{
-    padding:15px;
+  .aluno__Gabriel {
+    display: flex;
+    width: 95%;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
   }
-  .icones img{
+
+  .aluno__Joao {
+    display: flex;
+    width: 95%;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .icones {
+    padding: 15px;
+  }
+
+  .icones img {
     margin: 2px;
   }
 
-  .icones img:hover{
+  .icones img:hover {
     transform: scale(0.9);
   }
 
-  .membros{
+  .membros {
     flex-direction: column;
     flex-wrap: wrap;
   }
-
 }
-
-

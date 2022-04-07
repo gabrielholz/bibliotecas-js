@@ -6,6 +6,22 @@
     text-decoration: none;
 }
 
+#nav-list li button {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(18,146,205);
+    padding: 10px;
+    border-radius: 20px;
+    border: 0;
+  }
+
+  #nav-list li button:hover {
+    transform: scale(1.2);
+  }
+
 .bannerIndex {
     display: flex;
     justify-content: center;
@@ -18,7 +34,7 @@ form {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 30%;
+    width: 50%;
     height: 40%;
     border-radius: 20px;
     padding: 2%;
@@ -51,13 +67,13 @@ form button:hover {
 @media (max-width: 460px) /*mobile*/ {
     form {
         width: 80%;
-        height: 90%;
+        height: 40%;
     }
 }
 
 @media (min-width: 461px) and (max-width:768px) /*tablet*/ {
     form {
         width: 80%;
-        height: 90%;
+        height: 40%;
     }
 }
