@@ -10,6 +10,7 @@ html {
     scroll-behavior: smooth;
 }
 
+
 header {
     display: flex;
     align-items: center;
@@ -59,8 +60,9 @@ header {
 }
 
 .bannerIndex {
-    background-image: url('../img/bannerIndex.jpg');
+    background-image: url('../img/bannerIndex.jpg'); 
     background-repeat: no-repeat;
+    background-attachment: scroll;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -106,6 +108,7 @@ header {
 }
 
 .itens {
+   
 
     display: flex;
     flex-direction: column;
@@ -121,6 +124,7 @@ header {
     display: block;
     width: 100%;
     flex-direction: column;
+    
 }
 
 .bfConteiner__cards {
